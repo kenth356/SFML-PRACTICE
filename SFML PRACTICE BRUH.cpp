@@ -30,7 +30,7 @@ int main() {
 				    break;
 			}
 		}
-
+                //For Circle
 		if (Keyboard::isKeyPressed(Keyboard::Right))
 			bilog.move(speed, 0);
 		if (Keyboard::isKeyPressed(Keyboard::Left))
@@ -39,7 +39,7 @@ int main() {
 			bilog.move(0, -speed);
 		if (Keyboard::isKeyPressed(Keyboard::Down))
 			bilog.move(0, speed);
-
+                //For Rectangle
 		if (Keyboard::isKeyPressed(Keyboard::D))
 			parihaba.move(speed, 0);
 		if (Keyboard::isKeyPressed(Keyboard::A))
